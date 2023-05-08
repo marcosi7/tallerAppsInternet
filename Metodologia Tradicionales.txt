@@ -1,0 +1,9 @@
+Metodologias Tradicionales
+
+Cascada.-
+El modelo cascada tiene una estructura lineal, secuencial y poco flexible ante cambios. El cliente interactúa con el equipo de desarrollo mediante reuniones periódicas. La arquitectura se define previamente en el proyecto.
+
+Espiral.-
+El modelo espiral es un modelo de proceso de software que combina la naturaleza iterativa de prototipado con los aspectos controlados y sistemáticos del modelo lineal secuencial. El modelo espiral se divide en cuatro fases: determinación de objetivos, evaluación y reducción de riesgos, desarrollo y validación.
+
+Cada giro de la espiral representa un ciclo completo, por donde siempre pasan los cuatro cuadrantes. El modelo espiral se utiliza para proyectos grandes y complejos.
