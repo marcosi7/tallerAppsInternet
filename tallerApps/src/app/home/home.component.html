@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 5 Basic Example</title>
+</head>
+<body>
+  <!-- Creamos una barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Rick_and_Morty.svg" class="img-fluid" width="200" height="200" alt="...">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a routerLink="/" class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/pagina1" class="nav-link" href="#">Personajes</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/pagina2" class="nav-link" href="#">Episodios</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/pagina3" class="nav-link" href="#">Lugares</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Creamos una sección principal -->
+  <div class="container">
+    <div class="jumbotron mt-4">
+      <img src="https://www.hollywoodreporter.com/wp-content/uploads/2018/05/edc9bf26-65c3-49c4-8822-97738260a449-1.png?w=1280" class="img-fluid" alt="...">
+      <h1 class="display-4">Rick and Morty</h1>
+      <p class="lead">Sinopsis. Comedia animada que narra las aventuras de Rick, un científico loco, egoísta y alcohólico que, junto a su nieto Morty, viven momentos que mezclan problemas familiares junto a viajes en el tiempo, intergalácticos o, incluso, a través del tiempo. Todo esto se vive a través de una base de humor negro y sátira profunda a la sociedad que, al tratarse de un contenido más adulto, encaja a la perfección con su público objetivo.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+
+      </div>
+      <div class="col-md-4">
+
+      </div>
+      <div class="col-md-4">
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
